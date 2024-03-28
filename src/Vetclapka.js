@@ -1,11 +1,12 @@
 import "./veter.css";
-
+import "./index.css";
+import video from"./assets/video/slider2.mp4";
 function Vetclapka() {
   return (
     <>
-      <section className="header">
-        <div className="header__main">
-          <div className="content1">
+      <div className="header__main">
+        <div className="content1">
+          <div className="content1-wrapper">
             <div className="logo">
               <img className="logo__img" src="https://static.vecteezy.com/system/resources/previews/007/559/355/non_2x/dog-a-minimalist-and-modern-dog-logo-illustration-free-vector.jpg" alt="лого" />
             </div>
@@ -32,8 +33,11 @@ function Vetclapka() {
             </div>
           </div>
         </div>
-        <h1>Добро пожаловать в ветеринарную клинику</h1>
-        <h2>Лапка</h2>
+      </div>
+      <section className="header">
+        <video className="video" autoPlay="true" muted="true" src={video} />
+        <h1>Ветеринарные клиники</h1>
+        <h2>Lapka</h2>
       </section>
       <div className="description">
         <p>

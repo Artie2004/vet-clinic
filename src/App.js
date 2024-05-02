@@ -4,7 +4,9 @@ import Vetclapka from "./Vetclapka.js";
 
 function App() {
   return (
-    <Vetclapka />
+    <>
+      <Vetclapka />
+    </>
   );
 }
 

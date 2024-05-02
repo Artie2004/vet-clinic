@@ -1,6 +1,8 @@
 import "./veter.css";
 import "./index.css";
 import video from"./assets/video/slider2.mp4";
+import Aboutus from "./pages/Aboutus/Aboutus";
+import { Link } from "react-router-dom";
 function Vetclapka() {
   return (
     <>
@@ -17,7 +19,7 @@ function Vetclapka() {
                     <a href="#">Главная</a>
                   </li>
                   <li className="elem">
-                    <a href="#">О нас</a>
+                    <Link to={Aboutus}>О нас</Link>
                   </li>
                   <li className="elem">
                     <a href="#">Наши услуги</a>
